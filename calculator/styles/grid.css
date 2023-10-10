@@ -1,0 +1,50 @@
+.grid-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 2px;
+}
+
+.grid-box{
+  justify-content: center;
+  width: 201px;
+  height: 258px;
+}
+
+.text-area{
+  width: 201px;
+  height: 35px;
+  text-align: right;
+  font-size: 20px;
+  overflow-y: hidden;
+  font-weight: bold;
+  line-height: 35px;
+  resize: none;
+  background-color: black;
+  border: none;
+  color: white;
+
+}
+
+.inputed-area{
+  margin-bottom: 2px;
+  display: block;
+  width: 201px;
+  height: 20px;
+  text-align: right;
+  font-size: 12px;
+  overflow-y: hidden;
+  font-weight: bold;
+  line-height: 20px;
+  resize: none;
+  background-color: black;
+  border: none;
+  color: white;
+}
+.whole{
+  background-color: black;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 207px;
+}
